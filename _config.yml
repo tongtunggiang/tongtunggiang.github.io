@@ -3,7 +3,7 @@ title_left    : "Tong"
 title_right   : "Giang" # default: ""
 description   : "A hungry game programmer."
 keywords      : "game, programming, gameplay"
-url           : https://www.tongtunggiang.github.io/ # site url
+url           : https://tongtunggiang.github.io/ # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
