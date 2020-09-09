@@ -41,4 +41,39 @@ with Tofu Games, 2017
 - Design and program data structures for storing player progress and inventories.
 - Apply the git-branching model and train other teammates to use that.
 - Assist other programmers when they need technical advice or a solution.
-- Perform game optimizations
+- Perform game optimizations.
+
+# Personal
+Occasionally, I do pet projects for fun. These projects can be anything. Some of them are pieces that I find interesting at work. Some of them are just learning, research and experiment. Some of them are improvements to existing solutions, both mine and others. Some of them are tutorials for things that I made mistakes before and I want to share that painful experience.
+
+## Rewrite my first game in university with C++ and SDL using ECS architecture
+I suddenly grew fond of ECS practices. I remember that my first game, written in C++ and SDL is shitty – no joke about this. I haven’t been touching C++ for a while as well, so this is a perfect opportunity to apply some new knowledge to make something familiar, just for fun (and for my Master’s graduation project).
+
+The project is in a really early process though – more details to come! If you’re interested in examining what I’ve got, feel free to go to my GitLab repository.
+
+June 2020’s update: https://twitter.com/tongtunggiang/status/1272581552061452295
+
+## ECS Experiment with Unity
+
+- Use Unity 2019.3.
+- Write two demos: one in traditional Mono and the other one in ECS and throw many agents to the scene.
+- Performance comparison.
+- Learn the uniform grid spatial partitioning technique and implement it in ECS using multi hash maps.
+
+## Line of Sight Implementation in UE4
+
+- Use Unreal Engine 4.18.
+- Playing around with UE4’s procedural mesh generation.
+
+## An Object Pool solution for Unity 3D
+
+- A common optimization practice.
+- Data-driven workflow friendly allowing quick setup.
+- Should be applicable on most Unity versions.
+
+
+## A C#-inspired event and delegate implementation in C++
+
+- Built on the foundation of the Observer pattern.
+- Featuring function pointers encapsulated in a class.
+- … and a colourful output window just for fun.
