@@ -1,6 +1,6 @@
 # Site settings
-title_left    : "Tong"
-title_right   : "Giang" # default: ""
+title_left    : "Giang Tong"
+title_right   : "" # default: ""
 description   : "A hungry game programmer."
 keywords      : "game, programming, gameplay"
 url           : https://tongtunggiang.github.io # site url
