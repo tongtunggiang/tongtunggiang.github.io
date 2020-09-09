@@ -16,7 +16,7 @@ Secondly, they create _garbage_. C# is a language where you just need to allocat
 And last but not least, they cause _memory fragmentation_. Dynamically allocated objects are stored in a zone in your RAM, called the _heap memory_. Basically, your game would scan its heap, to find a chunk large enough for the object that would be created. This is not cheap.
 
 ![I took this image from the amazing site gameprogrammingpatterns.com. I love you, Bob Nystrom!
-](http://gameprogrammingpatterns.com/images/object-pool-heap-fragment.png)
+](https://gameprogrammingpatterns.com/images/object-pool-heap-fragment.png)
 
 It can get _even get worse_. If your game cannot find a place to put the object, it has to ask the operating system for expanding its heap. Sometimes it is fast, sometimes it is slow. The operating system is busy, so it cannot guarantee an immediate response to your game.
 
