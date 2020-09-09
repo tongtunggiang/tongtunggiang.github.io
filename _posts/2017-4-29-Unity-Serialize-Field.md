@@ -42,6 +42,7 @@ public class TestSerialize : MonoBehaviour
 }
 ```
 Then I create a prefab, attach the script above to it. The serialized attributes are given some values. This is how it looks on Unity Inspector panel:
+
 ![](https://raw.githubusercontent.com/tongtunggiang/tongtunggiang.github.io/master/assets/images/SF_Editor.png)
 
 I will open the .prefab file in a text editor. Voila! The variable names and their corresponding values are saved in the .prefab file as shown below. If your prefab file is not displayed correctly in the text editor, your project’s serialization settings is probably set to binary mode. To view your prefab in a text editor, go to _Edit -> Project Settings -> Editor_ and change the _Asset Serialization_’s Mode to _Force Text_.
