@@ -5,6 +5,14 @@ permalink: /portfolio/
 ---
 
 # Professional
+## Epic Odyssey (Android, iOS)
+with Hiker Games, 2019
+
+![](https://raw.githubusercontent.com/tongtunggiang/tongtunggiang.github.io/master/assets/images/hiker_eo.jpg)
+- The last project before leaving Vietnam for the UK - work on prototype and pre-production stages.
+- The development process used Unity 2019.
+- Work on several tools: quest creation and serialisation, player progress, dev-mode mock formation and more.
+- Gameplay mechanis implementation: quest interaction, camera control, fog of war, dialogue system.
 
 ## Arena of Survivors (Android, iOS)
 with Hiker Games, 2018
@@ -14,8 +22,8 @@ with Hiker Games, 2018
 - Take the main responsibility for input handler, core mechanics, network replication algorithms and data structures.
 - Lead the learning and adapting process of Exit Games’ Photon Unity Network SDK, and later, Quantum Deterministic SDK for the team.
 - Build a successful workflow based on git branching and Jenkins automated builds.
-- Get myself familiar with a wide range of concepts along the way, including (notably) the Entity-Component-System (ECS) programming model, C# unsafe code, network optimization, and CI/CD environment.
-- Perform network and gameplay optimization.
+- Get myself familiar with a wide range of concepts along the way, including (notably) the Entity-Component-System (ECS) programming model, C# unsafe code, network optimisation, and CI/CD environment.
+- Perform network and gameplay optimisation.
 
 ## FZ9: Timeshift (Android, iOS)
 with Hiker Games, 2017
@@ -41,7 +49,7 @@ with Tofu Games, 2017
 - Design and program data structures for storing player progress and inventories.
 - Apply the git-branching model and train other teammates to use that.
 - Assist other programmers when they need technical advice or a solution.
-- Perform game optimizations.
+- Perform game optimisations.
 
 # Personal
 Occasionally, I do pet projects for fun. These projects can be anything. Some of them are pieces that I find interesting at work. Some of them are just learning, research and experiment. Some of them are improvements to existing solutions, both mine and others. Some of them are tutorials for things that I made mistakes before and I want to share that painful experience.
@@ -67,7 +75,7 @@ June 2020’s update: https://twitter.com/tongtunggiang/status/12725815520614522
 
 ## An Object Pool solution for Unity 3D
 
-- A common optimization practice.
+- A common optimisation practice.
 - Data-driven workflow friendly allowing quick setup.
 - Should be applicable on most Unity versions.
 
