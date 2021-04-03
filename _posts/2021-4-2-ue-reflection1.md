@@ -42,16 +42,12 @@ Let's jump into the macros, `UCLASS`, `UPROPERTY and` `GENERATED_BODY`, which le
 // ObjectMacros.h
 // These macros wrap metadata parsed by the Unreal Header Tool, and are otherwise
 // ignored when code containing them is compiled by the C++ compiler
-#define UPROPERTY(...)
+#define UPROPERTY(...)       
+#define UCLASS(...)       
 
-#define UCLASS(...)
-
-
-#define BODY_MACRO_COMBINE_INNER(A,B,C,D) A##B##C##D
-
-#define BODY_MACRO_COMBINE(A,B,C,D) BODY_MACRO_COMBINE_INNER(A,B,C,D)
-
-#define GENERATED_BODY(...) BODY_MACRO_COMBINE(CURRENT_FILE_ID,_,__LINE__,_GENERATED_BODY);
+#define BODY_MACRO_COMBINE_INNER(A,B,C,D) A##B##C##D       
+#define BODY_MACRO_COMBINE(A,B,C,D) BODY_MACRO_COMBINE_INNER(A,B,C,D)       
+#define GENERATED_BODY(...) BODY_MACRO_COMBINE(CURRENT_FILE_ID,_,__LINE__,_GENERATED_BODY);       
 ```
 
 
@@ -71,7 +67,7 @@ Let's look at the generated file, then. Note that it's not available if you don'
 ```cpp
 // AMyActor.generated.h
 // ...
-#define MyActor_h_12_INCLASS_NO_PURE_DECLS \    
+#define MyActor_h_12_INCLASS_NO_PURE_DECLS \           
 private: \    
 	static void StaticRegisterNativesAMyActor(); \    
 	friend struct Z_Construct_UClass_AMyActor_Statics; \    
@@ -79,7 +75,7 @@ public:  \
 	DECLARE_CLASS(AMyActor,...) \    
 
 //...
-#define MyActor_h_12_GENERATED_BODY \    
+#define MyActor_h_12_GENERATED_BODY \           
 public: \    
 	MyActor_h_12_INCLASS_NO_PURE_DECLS \    
 private: \    
