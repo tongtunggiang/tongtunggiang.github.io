@@ -71,28 +71,18 @@ Let's look at the generated file, then. Note that it's not available if you don'
 ```cpp
 // AMyActor.generated.h
 // ...
-#define MyActor_h_12_INCLASS_NO_PURE_DECLS \
-
-private: \
-
-	static void StaticRegisterNativesAMyActor(); \
-
-	friend struct Z_Construct_UClass_AMyActor_Statics; \
-
-public:  \
-
-	DECLARE_CLASS(AMyActor,...) \
-
+#define MyActor_h_12_INCLASS_NO_PURE_DECLS \    
+private: \    
+	static void StaticRegisterNativesAMyActor(); \    
+	friend struct Z_Construct_UClass_AMyActor_Statics; \    
+public:  \    
+	DECLARE_CLASS(AMyActor,...) \    
 
 //...
-#define MyActor_h_12_GENERATED_BODY \
-
-public: \
-
-	MyActor_h_12_INCLASS_NO_PURE_DECLS \
-
-private: \
-
+#define MyActor_h_12_GENERATED_BODY \    
+public: \    
+	MyActor_h_12_INCLASS_NO_PURE_DECLS \    
+private: \    
 
 //...
 template<> UClass* StaticClass<class AMyActor>();
