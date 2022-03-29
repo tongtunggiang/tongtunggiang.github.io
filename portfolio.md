@@ -5,10 +5,22 @@ permalink: /portfolio/
 ---
 
 # Professional
+## Prison Architect (Windows, Linux, macOS, PS4, Xbox One, Nintendo Switch)
+with Double Eleven, 2022
+
+![© Paradox Interactive](https://raw.githubusercontent.com/tongtunggiang/tongtunggiang.github.io/master/assets/images/d11_pa.jpg)
+- DLCs: Going Green, Second Chances, Perfect Storm.
+- Work on new features, maintained/refactored existing code and fixed bugs.
+- Work on many different areas of the game: gameplay logic, UI, AI, optimisation, asset tooling, rendering, etc.
+- Enforce modern C++ practices (smart pointers, constexpr, RAII, templates,...)
+- Help and coach junior programmers.
+- Do code reviews.
+- Assist the lead programmer in sprint planning and designing feature solutions.
+
 ## Epic Odyssey (Android, iOS)
 with Hiker Games, 2019
 
-![](https://raw.githubusercontent.com/tongtunggiang/tongtunggiang.github.io/master/assets/images/hiker_eo.jpg)
+![© Hiker Games](https://raw.githubusercontent.com/tongtunggiang/tongtunggiang.github.io/master/assets/images/hiker_eo.jpg)
 - The last project before leaving Vietnam for the UK - work on prototype and pre-production stages.
 - The development process used Unity 2019.
 - Work on several tools: quest creation and serialisation, player progress, dev-mode mock formation and more.
@@ -17,7 +29,7 @@ with Hiker Games, 2019
 ## Arena of Survivors (Android, iOS)
 with Hiker Games, 2018
 
-![](https://raw.githubusercontent.com/tongtunggiang/tongtunggiang.github.io/master/assets/images/hiker_aos.jpg)
+![© Hiker Games](https://raw.githubusercontent.com/tongtunggiang/tongtunggiang.github.io/master/assets/images/hiker_aos.jpg)
 - The development process used Unity 2017, Photon Unity SDK, Photon Quantum SDK.
 - Take the main responsibility for input handler, core mechanics, network replication algorithms and data structures.
 - Lead the learning and adapting process of Exit Games’ Photon Unity Network SDK, and later, Quantum Deterministic SDK for the team.
@@ -28,7 +40,7 @@ with Hiker Games, 2018
 ## FZ9: Timeshift (Android, iOS)
 with Hiker Games, 2017
 
-![](https://raw.githubusercontent.com/tongtunggiang/tongtunggiang.github.io/master/assets/images/hiker_fz9.jpg)
+![© Hiker Games](https://raw.githubusercontent.com/tongtunggiang/tongtunggiang.github.io/master/assets/images/hiker_fz9.jpg)
 - The development process used Unity 5.6.
 - Fix legacy bugs and do refactoring occasionally.
 - Work closely with game designers to deliver new features and content.
@@ -40,7 +52,7 @@ with Hiker Games, 2017
 ## Galaxy Gunner: Adventure (Android)
 with Tofu Games, 2017
 
-![](https://raw.githubusercontent.com/tongtunggiang/tongtunggiang.github.io/master/assets/images/tofu_galaxygunner.jpg)
+![© Tofu Games](https://raw.githubusercontent.com/tongtunggiang/tongtunggiang.github.io/master/assets/images/tofu_galaxygunner.jpg)
 - The development process used Unity 5.6.
 - Refactor legacy code to reduce technical debts.
 - Develop gameplay systems: player combat system, enemy system and weapon system.
@@ -54,12 +66,19 @@ with Tofu Games, 2017
 # Personal
 Occasionally, I do pet projects for fun. These projects can be anything. Some of them are pieces that I find interesting at work. Some of them are just learning, research and experiment. Some of them are improvements to existing solutions, both mine and others. Some of them are tutorials for things that I made mistakes before and I want to share that painful experience.
 
+## Learn graphics programming (WIP)
+- Follow learnopengl.com as I have absolutely zero idea how to write a renderer from scratch.
+- Learn about graphics pipeline, texture, vertex, shader, buffers, lighting, camera and a lot of other basic stuff.
+- Occasionally going off route by spending way too much time designing engine subsystems...
+
+## Unity-EnTT
+- Continue with EnTT, this time with Unity. 
+- Write a very simple tower defense logic layer in ECS with EnTT.
+- Link: https://github.com/tongtunggiang/unity-entt
+
 ## Rewrite my first game in university with C++ and SDL using ECS architecture
-I suddenly grew fond of ECS practices. I remember that my first game, written in C++ and SDL is shitty – no joke about this. I haven’t been touching C++ for a while as well, so this is a perfect opportunity to apply some new knowledge to make something familiar, just for fun (and for my Master’s graduation project).
-
-The project is in a really early process though – more details to come! If you’re interested in examining what I’ve got, feel free to go to my GitLab repository.
-
-June 2020’s update: https://twitter.com/tongtunggiang/status/1272581552061452295
+- Rewrite my first game: same gameplay, same horrible mechanics, new ECS practices (powered by EnTT).
+- Link: https://gitlab.com/TongTungGiang/GreenSwordfish
 
 ## ECS Experiment with Unity
 
